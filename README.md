@@ -10,7 +10,6 @@ Feedstock license: BSD 3-Clause
 Summary: A "run" function for asyncio-based apps that does all the boilerplate.
 
 
-
 Current build status
 ====================
 
