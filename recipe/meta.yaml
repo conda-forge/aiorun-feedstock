@@ -1,5 +1,5 @@
 {% set name = "aiorun" %}
-{% set version = "2019.4.1" %}
+{% set version = "2019.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5da1ebc219b2c3c52bd92ffbe412f1debc936836a0ea048a62835b7be2f60436
+  sha256: 27e10f0e7a45faa816fed85a516b0a19074723e4a07d8d024ed56977075b919a
 
 build:
   noarch: python
