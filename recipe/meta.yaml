@@ -1,5 +1,5 @@
 {% set name = "aiorun" %}
-{% set version = "2020.2.1" %}
+{% set version = "2020.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2c0410edb7d26c27ef38653078ad6d3ee6985b77f379254210c2dd703f7d76d6
+  sha256: 90c59155711011f97bb5daaec581bb41110ea76860e709e86c1f2612aa2e409d
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'A "run" function for asyncio-based apps that does all the boilerplate.'
+  summary: A "run" function for asyncio-based apps that does all the boilerplate.
 
 extra:
   recipe-maintainers:
