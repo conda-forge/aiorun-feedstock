@@ -1,11 +1,11 @@
-About aiorun
-============
+About aiorun-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiorun-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cjrh/aiorun
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiorun-feedstock/blob/main/LICENSE.txt)
 
 Summary: A "run" function for asyncio-based apps that does all the boilerplate.
 
